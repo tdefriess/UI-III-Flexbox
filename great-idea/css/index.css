@@ -237,3 +237,46 @@ footer {
 	padding-bottom: 40px;
 	border-bottom: 1px solid black;
 }
+
+.services-middle {
+	margin: 40px auto;
+	width: 82%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	padding-bottom: 40px;
+}
+
+.services-middle div {
+	width: 48%;
+	background-color: #eeeeee;
+	border: 1px solid black;
+	padding: 15px;
+	margin: 15px 0;
+	height:
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.services-bottom {
+	display: flex;
+	width: 82%;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	justify-content: space-between;
+}
+
+.services-bottom div, .services-bottom img {
+	width: 48%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.services-list {
+	line-height: 1.5em;
+	list-style-type: square;
+	margin-left: 20px;
+}
