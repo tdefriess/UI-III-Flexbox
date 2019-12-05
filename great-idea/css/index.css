@@ -178,7 +178,7 @@ h1 {
 	margin-left: 5%;
 }
 
-.middle-img {
+.middle-img, .services-header-img {
 	width: 82%;
 	margin: 0 auto;
 	margin-bottom: 30px;
@@ -222,4 +222,18 @@ h1 {
 footer {
 	text-align: center;
 	height: 100px;
+}
+
+/* Services header */
+.services-title {
+	font-size: 24px;
+}
+
+.services-header {
+	display: flex;
+	flex-direction: column;
+	width: 82%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+	border-bottom: 1px solid black;
 }
