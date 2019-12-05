@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Navigation header */
 
 * {
-	border: 0px solid black;
+	border: 1px solid black;
 }
 .nav-header {
 	display: flex;
@@ -299,3 +299,28 @@ footer {
 }
 
 /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+		.nav-header {
+		flex-wrap: wrap;
+	}
+	.nav-header nav {
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	nav a{
+		width: 33%;
+	}
+	/* Services.html */
+	.services-middle div {
+		width: 100%;
+	}
+	.teaser {
+		height: 260px;
+	}
+	.services-bottom {
+		flex-direction: column;
+		}
+	.services-bottom div, .services-bottom img {
+		width: 100%;
+	}
+}
