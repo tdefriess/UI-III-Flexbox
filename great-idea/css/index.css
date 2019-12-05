@@ -68,18 +68,20 @@ h1, h2, h3, h4, h5 {
 /* Navigation header */
 
 * {
-	border: px solid black;
+	border: 0px solid black;
 }
 .nav-header {
 	display: flex;
 	height: 50px;
 	margin-top: 40px;
-	width: 90%;
+	width: 82%;
+	margin: 40px auto;
 	margin-bottom: 40px;
+	justify-content: space-between;
 }
 
 .nav-header nav {
-	width: 70%;
+	width: 100%;
 	margin-bottom: 15px;
 	display: flex;
 	align-items: flex-end;
@@ -90,10 +92,6 @@ h1, h2, h3, h4, h5 {
 	align-items:baseline;
 	height: 40px;
 
-}
-
-nav {
-	margin-left: 9%;
 }
 
 nav a {
@@ -124,7 +122,6 @@ nav a {
 header {
 	display: flex;
 	justify-content: center;
-	width: ;
 }
 
 .tag {
@@ -256,8 +253,28 @@ footer {
 	margin: 15px 0;
 	height:
 	display: flex;
+}
+
+.teaser {
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	height: 220px;
+}
+.teaser h2 {
+	margin: 0
+}
+
+.learn-more {
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px 32px;
+	width: 40%;
+}
+.learn-more:hover {
+	background-color: lightgray;
 }
 
 .services-bottom {
@@ -280,3 +297,5 @@ footer {
 	list-style-type: square;
 	margin-left: 20px;
 }
+
+/* Mobile Styles */
